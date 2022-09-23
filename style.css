@@ -31,6 +31,10 @@ p2{
     color:rgb(252, 53, 13);
 }
 
+p3{
+    color:darkmagenta
+}
+
 a {
     text-decoration: none;
     display: inline-block;
@@ -43,7 +47,7 @@ a {
   }
   
   .previous {
-    background-color: #f1f1f1;
+    background-color: #fdddc8;
     color: black;
   }
   
