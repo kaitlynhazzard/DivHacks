@@ -5,30 +5,49 @@
     --forest: #062201;
     --orange: #ffa059;
 }
-/* {
-    color: var(--fontColor);
-    .p1{
-        font-family: helvetica;
-    }
 
-    .p2{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    
-  }*/
-
-  .p1{
-    font-family: helvetica;
-    color: var(--fontColor);
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(232, 249, 234);
 }
 
-  body {
-    background: var(--bg);
+.container{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main-theme{
-   --bg: var(--sage);
-   --fontColor: var(--orange);
-   --btnBg: var(--darkSage);
+h1{
+    color: rgb(246, 127, 23);
+    text-align: center;
 }
+
+p1{
+    color: forestgreen;
+}
+
+p2{
+    color:rgb(252, 53, 13);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
