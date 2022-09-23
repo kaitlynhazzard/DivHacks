@@ -15,6 +15,7 @@ body{
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: ;
 }
 
 h1{
@@ -30,6 +31,10 @@ p2{
     color:rgb(252, 53, 13);
 }
 
+p3{
+    color:darkmagenta
+}
+
 a {
     text-decoration: none;
     display: inline-block;
@@ -42,7 +47,7 @@ a {
   }
   
   .previous {
-    background-color: #f1f1f1;
+    background-color: #fdddc8;
     color: black;
   }
   
@@ -50,4 +55,21 @@ a {
     background-color: #04AA6D;
     color: white;
   }
-  
+ 
+  .wrapper-bottom-left {
+	position: absolute;
+	top: 75%;
+	left: 10%;
+}
+
+.wrapper-bottom-middle {
+	position: absolute;
+	top: 75%;
+	left: 43%;
+}
+
+.wrapper-bottom-right {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+}  

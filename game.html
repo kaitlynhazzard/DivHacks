@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hannah & Kaitlyn's DivHacks Project</title>
+        <link rel = "stylesheet" href = "style.css">
+		<script type="text/javascript">
+    		//init object globally
+    		var objImage = null;
+    		function init() {
+        		objImage = document.getElementById("image1");
+        		objImage.style.position = "relative";
+        		objImage.style.left = "0px";
+        		objImage.style.top = "0px";
+    		}
+    		function getKeyAndMove(e) {
+        		var key_code = e.which || e.keyCode;
+        		switch (key_code) {
+            		case 37: //left arrow key
+                		moveLeft();
+                		break;
+            		case 39: //right arrow key
+                		moveRight();
+               		 	break;
+            		case 40: //down arrow key
+                		moveDown();
+                		break;
+        		}
+    		}
+    		function moveLeft() {
+        		objImage.style.left = parseInt(objImage.style.left) - 15 + "px";
+    		}
+    		function moveRight() {
+        		objImage.style.left = parseInt(objImage.style.left) + 15 + "px";
+    		}
+    		function moveDown() {
+        		objImage.style.top = parseInt(objImage.style.top) + 15 + "px";
+    		}
+    		window.onload = init;
+		</script>
+	</head>
+	
+	<body onkeydown="getKeyAndMove(event)">
+        <a href="index.html" class="previous">&laquo; Previous</a>
+        <h1>Sort the Objects into Recycling, Trash, and Compost.</h1>
+        <h2>Use Arrow keys to move object left, right and down.</h2>
+        <img id="image1" src="istockphoto-1222740562-612x612.jpg" style="width: 100px" alt="includehelp.com" />
+		<div class="wrapper-bottom-left">
+			<img src="images/IMG_0029.PNG" style="width:100px"/>
+		</div>
+		<div class="wrapper-bottom-middle">
+			<img src="images/IMG_0028.PNG" style="width:100px"/>
+		</div>
+		<div class="wrapper-bottom-right">
+			<img src="images/IMG_0027.PNG" style="width:100px"/>
+		</div>
+
+    </body>	
+
+</html>
