@@ -32,3 +32,21 @@
    --fontColor: var(--orange);
    --btnBg: var(--darkSage);
 }
+
+.wrapper-bottom-left {
+	position: absolute;
+	top: 75%;
+	left: 10%;
+}
+
+.wrapper-bottom-middle {
+	position: absolute;
+	top: 75%;
+	left: 43%;
+}
+
+.wrapper-bottom-right {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+}
