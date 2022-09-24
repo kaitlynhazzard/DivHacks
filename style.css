@@ -11,24 +11,6 @@ body{
     background-color: rgb(232, 249, 234);
 }
 
-.vl {
-    border-left: 15px solid green;
-    height: 1000px;
-    position: absolute;
-    left: -2%;
-    margin-left: 25px;
-    top: 0;
-  }
-
-  .v2 {
-    border-left: 15px solid green;
-    height: 1000px;
-    position: absolute;
-    right: 0%;
-    margin-left: 25px;
-    top: 0;
-  }
-
 .container{
     max-width: 940px;
     margin-left: auto;
