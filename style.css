@@ -40,6 +40,10 @@ a {
     display: inline-block;
     padding: 8px 16px;
   }
+
+  a:link {
+	color: black;
+	}
   
   a:hover {
     background-color: #ddd;
@@ -48,7 +52,7 @@ a {
   
   .previous {
     background-color: #fdddc8;
-    color: black;
+	color: black;
   }
   
   .next {
