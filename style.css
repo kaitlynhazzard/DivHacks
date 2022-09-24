@@ -6,33 +6,65 @@
     --orange: #ffa059;
 }
 
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body{    
+    font-family: 'American Typewriter', sans-serif;                                               
     background-color: rgb(232, 249, 234);
 }
+
+.vl {
+    border-left: 15px solid green;
+    height: 1000px;
+    position: absolute;
+    left: -2%;
+    margin-left: 25px;
+    top: 0;
+  }
+
+  .v2 {
+    border-left: 15px solid green;
+    height: 1000px;
+    position: absolute;
+    right: 0%;
+    margin-left: 25px;
+    top: 0;
+  }
 
 .container{
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 h1{
     color: rgb(246, 127, 23);
     text-align: center;
+    font-family: 'American Typewriter', sans-serif; 
+    font-size: 45px; font-weight: normal; 
+    font-weight: bold;
+    font-stretch: 250%;
+    line-height: 72px; margin: 0; 
+}
+
+h2{
+    font-family: 'American Typewriter', sans-serif;
+    font-weight: 600;
+    text-align: center;
 }
 
 p1{
     color: forestgreen;
+    font-weight: 550;
 }
 
 p2{
     color:rgb(252, 53, 13);
+    font-weight: 550;
 }
 
 p3{
-    color:darkmagenta
+    color:rgb(140, 3, 140);
+    font-weight: 550;
+    font-stretch: 150%;
 }
 
 p4{
@@ -65,6 +97,8 @@ a {
   .previous {
     background-color: #fdddc8;
 	color: black;
+    text-align:center;
+    margin-left: 25px;
   }
   
   .next {
@@ -80,8 +114,14 @@ a {
 
 .button{
     margin-top: 25px;
-    text-align: center;
-    
+    margin-bottom: 25px;
+    text-align: center;    
+}
+
+.button2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;    
 }
 
 .wrapper-bottom-middle {
