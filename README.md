@@ -5,5 +5,5 @@
 ## Structure
 The web application includes:
 * Information on waste reduction and why it matters
-* An interactive game that teaches children whether to sort common objects into recycling, compost or trash
-* A list of helpful links on recyling and composting
+* `Play Game` An interactive game that teaches children whether to sort common objects into recycling, compost or trash
+* `Learn More` A list of helpful links on recyling and composting
