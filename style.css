@@ -102,6 +102,12 @@ a {
 	left: 43%;
 }
 
+.wrapper-top-right{
+	position: absolute;
+	top: 20%;
+	left: 75%;
+}
+
 * {
     box-sizing: border-box;
   }
