@@ -96,6 +96,12 @@ a {
 	left: 75%;
 }  
 
+.wrapper-top-middle{
+	position: absolute;
+	top: 20%;
+	left: 43%;
+}
+
 * {
     box-sizing: border-box;
   }
